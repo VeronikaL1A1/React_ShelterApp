@@ -1,0 +1,52 @@
+a:hover{
+    text-decoration: none;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.selfCenter{
+align-self:center
+}
+
+.flex{display: flex;}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+   
+    justify-content: center;
+}
+.homeLink{
+    text-decoration: none;
+    list-style: none;
+    padding: 2em;
+    
+}
+
+.paddingTitle{
+    padding:2em
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.loginRouting{
+    margin: 0em 2em 5em 2em;
+    
+}
+
+.aboutContainer{
+    padding: 0em 2em 
+}
+
+.aboutTitle{
+padding: 1em 0em
+}

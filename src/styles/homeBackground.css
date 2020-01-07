@@ -1,0 +1,8 @@
+.background{
+    background-image: url("https://www.petmd.com/sites/default/files/CANS_dogsmiling_379727605.jpg") ;
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	width:200px;
+}
