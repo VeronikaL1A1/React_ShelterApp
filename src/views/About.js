@@ -23,12 +23,16 @@ class About extends React.Component {
         const { text } = this.state;
         return (
             <div className="aboutContainer">
+                <article>
+                    <header>
                 <h2 className="aboutTitle">
                     Some informations about us
                 </h2>
+                </header>
                 <div>
                     {text.map((item) => <p>{item}</p>)}
                 </div>
+                </article>
                 
             </div>
         )

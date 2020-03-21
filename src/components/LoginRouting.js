@@ -12,20 +12,20 @@ class LoginRouting extends React.Component {
         super(props)
         
     }
-    static propTypes = {
-        match: PropTypes.object.isRequired,
-        location: PropTypes.object.isRequired,
-        history: PropTypes.object.isRequired
-    };
+    // static propTypes = {
+    //     match: PropTypes.object.isRequired,
+    //     location: PropTypes.object.isRequired,
+    //     history: PropTypes.object.isRequired
+    // };
 
-    userInput = async (email, password) => {
-        const newUser = {
-            email: email,
-            password: password
-        }
-        await axios.post("", newUser);
-        this.setState(prevState => { return { prevState: prevState.users.concat(newUser) } })
-    }
+    // userInput = async (email, password) => {
+    //     const newUser = {
+    //         email: email,
+    //         password: password
+    //     }
+    //     await axios.post("", newUser);
+    //     this.setState(prevState => { return { prevState: prevState.users.concat(newUser) } })
+    // }
     render() {
         const { match, location, history } = this.props;
         
@@ -33,8 +33,8 @@ class LoginRouting extends React.Component {
         return (
             <div >
                 <div className="flexRow center">
-                    <Button className={" loginRouting"} type={"button"} bootstrapClass={"btn btn-light"} child={<Link to="/shelterApp/login" onClick={this.props.handleClick}>Login form</Link>}  />
-                    <Button className={" loginRouting"} type={"button"} bootstrapClass={"btn btn-light"} child={<Link to="/shelterApp/register"  onClick={this.props.handleClick}>Register form</Link>} />
+                    <Button className={" loginRouting"} type={"button"} bootstrapClass={"btn btn-light"} child={<Link to="/shelterApp/login">Login form</Link>}  />
+                    <Button className={" loginRouting"} type={"button"} bootstrapClass={"btn btn-light"} child={<Link to="/shelterApp/register">Register form</Link>} />
                 </div>
                 <div>
 
